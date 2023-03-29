@@ -10,7 +10,8 @@
   },
   "scripts": {
     "release": "semantic-release --no-ci",
-    "husk": "husky install"
+    "husk": "husky install",
+    "preinstall": "node preinstall.js"
   },
   "author": "lumardyelson@gmail.com",
   "license": "@izing.io",
